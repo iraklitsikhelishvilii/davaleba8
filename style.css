@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  border: 16px solid #d8d8d8;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  gap: 40px;
+}
+.pizza_box {
+  width: 360px;
+  height: 528px;
+  border-radius: 16px;
+  background-color: #fff;
+  position: relative;
+}
+
+.tortellini_box {
+  width: 360px;
+  height: 528px;
+  border-radius: 16px;
+  background-color: #fff;
+  position: relative;
+}
+.cake_box {
+  width: 360px;
+  height: 528px;
+  border-radius: 16px;
+  background-color: #fff;
+  position: relative;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+.icon_box {
+  display: flex;
+  gap: 10px;
+}
+.box_heading {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.24px;
+  color: #081f32;
+}
+.icon {
+  position: absolute;
+}
+.ful_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #6e798c;
+  display: flex;
+  padding-left: 24px;
+  text-align: left;
+}
+.numbers {
+  display: flex;
+  padding: 24px;
+  justify-content: space-between;
+}
+.about_numbers {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #a5adbb;
+}
+.sale_price {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #081f32;
+}
+.price {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-decoration: line-through;
+  color: #f8593b;
+  position: relative;
+  top: 10px;
+}
+button {
+  width: 114px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: #2ecc71;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2.52px;
+  color: #fff;
+  border: none;
+}
+.bottom_box {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
+  position: relative;
+  bottom: -17px;
+}
+.all_price {
+  display: flex;
+  gap: 8px;
+}
+.info_icon {
+  position: absolute;
+  top: 5px;
+  right: 7px;
+}
+.info_icon_move {
+  position: absolute;
+  top: 18px;
+}
